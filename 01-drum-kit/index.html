@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="/drum.png" />
+  <link rel="stylesheet" href="./src/style.css" />
+  <title>JavaScript Drum Kit</title>
+  <script type="module" src="/src/main.ts" defer></script>
+</head>
+
+<body>
+  <div class="keys">
+    <div data-code="KeyA" class="key">
+      <kbd>A</kbd>
+      <span class="sound">clap</span>
+    </div>
+    <div data-code="KeyS" class="key">
+      <kbd>S</kbd>
+      <span class="sound">hihat</span>
+    </div>
+    <div data-code="KeyD" class="key">
+      <kbd>D</kbd>
+      <span class="sound">kick</span>
+    </div>
+    <div data-code="KeyF" class="key">
+      <kbd>F</kbd>
+      <span class="sound">openhat</span>
+    </div>
+    <div data-code="KeyG" class="key">
+      <kbd>G</kbd>
+      <span class="sound">boom</span>
+    </div>
+    <div data-code="KeyH" class="key">
+      <kbd>H</kbd>
+      <span class="sound">ride</span>
+    </div>
+    <div data-code="KeyJ" class="key">
+      <kbd>J</kbd>
+      <span class="sound">snare</span>
+    </div>
+    <div data-code="KeyK" class="key">
+      <kbd>K</kbd>
+      <span class="sound">tom</span>
+    </div>
+    <div data-code="KeyL" class="key">
+      <kbd>L</kbd>
+      <span class="sound">tink</span>
+    </div>
+  </div>
+
+  <audio data-code="KeyA"
+    src="https://gineet-static-assets.s3.ap-south-1.amazonaws.com/js30/drumkit-sounds/clap.wav"></audio>
+  <audio data-code="KeyS"
+    src="https://gineet-static-assets.s3.ap-south-1.amazonaws.com/js30/drumkit-sounds/hihat.wav"></audio>
+  <audio data-code="KeyD"
+    src="https://gineet-static-assets.s3.ap-south-1.amazonaws.com/js30/drumkit-sounds/kick.wav"></audio>
+  <audio data-code="KeyF"
+    src="https://gineet-static-assets.s3.ap-south-1.amazonaws.com/js30/drumkit-sounds/openhat.wav"></audio>
+  <audio data-code="KeyG"
+    src="https://gineet-static-assets.s3.ap-south-1.amazonaws.com/js30/drumkit-sounds/boom.wav"></audio>
+  <audio data-code="KeyH"
+    src="https://gineet-static-assets.s3.ap-south-1.amazonaws.com/js30/drumkit-sounds/ride.wav"></audio>
+  <audio data-code="KeyJ"
+    src="https://gineet-static-assets.s3.ap-south-1.amazonaws.com/js30/drumkit-sounds/snare.wav"></audio>
+  <audio data-code="KeyK"
+    src="https://gineet-static-assets.s3.ap-south-1.amazonaws.com/js30/drumkit-sounds/tom.wav"></audio>
+  <audio data-code="KeyL"
+    src="https://gineet-static-assets.s3.ap-south-1.amazonaws.com/js30/drumkit-sounds/tink.wav"></audio>
+</body>
+
+</html>
