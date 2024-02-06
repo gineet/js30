@@ -85,4 +85,4 @@ class DrumKit {
   }
 }
 
-new DrumKit();
+export default DrumKit;
